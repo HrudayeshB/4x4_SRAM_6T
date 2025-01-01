@@ -26,6 +26,7 @@ A 6T SRAM cell is the basic building block for the array. Below is the circuit s
 The 4x4 array is constructed by combining multiple 6T SRAM cells. The array structure and key components are shown below:
 
 - **4x4 Array Layout:**
+
   ![4x4 SRAM Array](screenshots/4x4_array.png)
 
 - **Write Drivers and Array:**
