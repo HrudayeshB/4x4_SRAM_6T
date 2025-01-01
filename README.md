@@ -29,12 +29,15 @@ The 4x4 array is constructed by combining multiple 6T SRAM cells. The array stru
   ![4x4 SRAM Array](screenshots/4x4_array.png)
 
 - **Write Drivers and Array:**
+
   ![Array Write Enable Signals](screenshots/array_we.png)
 
 - **Input Signals and Address decoder:**
+
   ![Signal Decoding](screenshots/sig_dec.png)
 
 - **Output Selecting Multiplexers:**
+
   ![Signal Decoding](screenshots/read.png)
 
 ### **3. Output Waveforms**
