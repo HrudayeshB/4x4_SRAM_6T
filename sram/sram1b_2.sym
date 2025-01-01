@@ -1,0 +1,32 @@
+v {xschem version=3.4.6 file_version=1.2}
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=x1"
+}
+V {}
+S {}
+E {}
+L 4 -60 -80 -60 -60 {}
+L 4 0 60 0 80 {}
+L 4 40 -80 40 -60 {}
+L 4 60 -80 60 -60 {}
+L 4 -80 60 80 60 {}
+L 4 -80 -60 -80 60 {}
+L 4 -80 -60 80 -60 {}
+L 4 80 -60 80 60 {}
+L 7 -100 0 -80 0 {}
+L 7 80 0 100 0 {}
+B 5 -62.5 -82.5 -57.5 -77.5 {name=pch dir=in}
+B 5 -2.5 77.5 2.5 82.5 {name=wl dir=in}
+B 5 37.5 -82.5 42.5 -77.5 {name=vdd dir=in}
+B 5 -102.5 -2.5 -97.5 2.5 {name=bl dir=inout}
+B 5 97.5 -2.5 102.5 2.5 {name=blb dir=inout}
+B 5 57.5 -82.5 62.5 -77.5 {name=gnd dir=in}
+T {SRAM_1b} -34 4 0 0 0.3 0.3 {}
+T {pch} -55 -46 2 0 0.2 0.2 {}
+T {wl} -5 46 0 0 0.2 0.2 {}
+T {vdd} 45 -46 2 0 0.2 0.2 {}
+T {bl} -75 4 2 1 0.2 0.2 {}
+T {blb} 75 -4 0 1 0.2 0.2 {}
+T {gnd} 75 -46 2 0 0.2 0.2 {}
