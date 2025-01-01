@@ -94,24 +94,24 @@ N -140 -1210 -20 -1210 {lab=we}
 N 230 -1210 310 -1210 {lab=we}
 N 560 -1210 640 -1210 {lab=we}
 N 890 -1210 970 -1210 {lab=we}
-N -940 -650 -940 -600 {lab=GND}
-N -940 -780 -940 -710 {lab=vdd}
-N -1060 -530 -1060 -500 {lab=a0}
-N -1060 -440 -1060 -410 {lab=GND}
-N -1190 -390 -1190 -360 {lab=re}
-N -1190 -300 -1190 -270 {lab=GND}
-N -790 -530 -790 -500 {lab=a1}
-N -790 -440 -790 -410 {lab=GND}
-N -1010 -210 -1010 -180 {lab=d1}
-N -1010 -120 -1010 -90 {lab=GND}
+N -910 -650 -910 -600 {lab=GND}
+N -910 -780 -910 -710 {lab=vdd}
+N -1030 -580 -1030 -550 {lab=a0}
+N -1030 -490 -1030 -460 {lab=GND}
+N -1140 -390 -1140 -360 {lab=re}
+N -1140 -300 -1140 -270 {lab=GND}
+N -790 -570 -790 -540 {lab=a1}
+N -790 -480 -790 -450 {lab=GND}
+N -1010 -220 -1010 -190 {lab=d1}
+N -1010 -130 -1010 -100 {lab=GND}
 N -750 -220 -750 -190 {lab=d2}
 N -750 -130 -750 -100 {lab=GND}
-N -470 -220 -470 -190 {lab=d3}
-N -470 -130 -470 -100 {lab=GND}
-N -640 -400 -640 -370 {lab=we}
-N -640 -310 -640 -280 {lab=GND}
-N -1290 -220 -1290 -190 {lab=d0}
-N -1290 -130 -1290 -100 {lab=GND}
+N -500 -220 -500 -190 {lab=d3}
+N -500 -130 -500 -100 {lab=GND}
+N -630 -380 -630 -350 {lab=we}
+N -630 -290 -630 -260 {lab=GND}
+N -1270 -220 -1270 -190 {lab=d0}
+N -1270 -130 -1270 -100 {lab=GND}
 N 1110 -770 1110 -750 {lab=vdd}
 N 1080 -770 1110 -770 {lab=vdd}
 N 1130 -770 1130 -750 {lab=GND}
@@ -363,43 +363,43 @@ C {lab_wire.sym} 40 -1390 0 0 {name=p105 sig_type=std_logic lab=d0}
 C {lab_wire.sym} 370 -1390 0 0 {name=p106 sig_type=std_logic lab=d1}
 C {lab_wire.sym} 700 -1390 0 0 {name=p107 sig_type=std_logic lab=d2}
 C {lab_wire.sym} 1030 -1390 0 0 {name=p108 sig_type=std_logic lab=d3}
-C {vsource.sym} -940 -680 0 0 {name=V1 value=1.8v savecurrent=false}
-C {gnd.sym} -940 -600 0 0 {name=l1 lab=GND}
-C {lab_wire.sym} -940 -780 0 0 {name=p109 sig_type=std_logic lab=vdd}
+C {vsource.sym} -910 -680 0 0 {name=V1 value=1.8v savecurrent=false}
+C {gnd.sym} -910 -600 0 0 {name=l1 lab=GND}
+C {lab_wire.sym} -910 -780 0 0 {name=p109 sig_type=std_logic lab=vdd}
 C {lab_wire.sym} 1160 -1040 0 0 {name=p60 sig_type=std_logic lab=GND}
 C {lab_wire.sym} 1150 -1310 0 0 {name=p62 sig_type=std_logic lab=GND}
 C {lab_wire.sym} 820 -1310 0 0 {name=p86 sig_type=std_logic lab=GND}
 C {lab_wire.sym} 490 -1310 0 0 {name=p88 sig_type=std_logic lab=GND}
 C {lab_wire.sym} 160 -1310 0 0 {name=p90 sig_type=std_logic lab=GND}
 C {lab_wire.sym} -370 -530 0 0 {name=p11 sig_type=std_logic lab=GND}
-C {vsource.sym} -1060 -470 0 0 {name=V3 value="pulse(1.8 0 0ns 0ns 0ns 60ns 120ns)" savecurrent=false}
-C {gnd.sym} -1060 -410 0 0 {name=l2 lab=GND}
-C {lab_wire.sym} -1060 -530 0 0 {name=p110 sig_type=std_logic lab=a0}
-C {gnd.sym} -1190 -270 0 0 {name=l4 lab=GND}
-C {lab_wire.sym} -1190 -390 0 0 {name=p112 sig_type=std_logic lab=re}
-C {vsource.sym} -790 -470 0 0 {name=V5 value="pulse(1.8 0 0ns 0ns 0ns 30ns 60ns)" savecurrent=false}
-C {gnd.sym} -790 -410 0 0 {name=l5 lab=GND}
-C {lab_wire.sym} -790 -530 0 0 {name=p113 sig_type=std_logic lab=a1}
-C {gnd.sym} -1010 -90 0 0 {name=l8 lab=GND}
-C {lab_wire.sym} -1010 -210 0 0 {name=p116 sig_type=std_logic lab=d1}
+C {vsource.sym} -1030 -520 0 0 {name=V3 value="pulse(1.8 0 0ns 0ns 0ns 60ns 120ns)" savecurrent=false}
+C {gnd.sym} -1030 -460 0 0 {name=l2 lab=GND}
+C {lab_wire.sym} -1030 -580 0 0 {name=p110 sig_type=std_logic lab=a0}
+C {gnd.sym} -1140 -270 0 0 {name=l4 lab=GND}
+C {lab_wire.sym} -1140 -390 0 0 {name=p112 sig_type=std_logic lab=re}
+C {vsource.sym} -790 -510 0 0 {name=V5 value="pulse(1.8 0 0ns 0ns 0ns 30ns 60ns)" savecurrent=false}
+C {gnd.sym} -790 -450 0 0 {name=l5 lab=GND}
+C {lab_wire.sym} -790 -570 0 0 {name=p113 sig_type=std_logic lab=a1}
+C {gnd.sym} -1010 -100 0 0 {name=l8 lab=GND}
+C {lab_wire.sym} -1010 -220 0 0 {name=p116 sig_type=std_logic lab=d1}
 C {gnd.sym} -750 -100 0 0 {name=l9 lab=GND}
 C {lab_wire.sym} -750 -220 0 0 {name=p117 sig_type=std_logic lab=d2}
-C {gnd.sym} -470 -100 0 0 {name=l10 lab=GND}
-C {lab_wire.sym} -470 -220 0 0 {name=p118 sig_type=std_logic lab=d3}
-C {vsource.sym} -640 -340 0 0 {name=V6 value="pulse(0 1.8 0ns 0ns 0ns 120ns 240ns)" savecurrent=false}
-C {gnd.sym} -640 -280 0 0 {name=l6 lab=GND}
-C {lab_wire.sym} -640 -400 0 0 {name=p114 sig_type=std_logic lab=we}
-C {vsource.sym} -1290 -160 0 0 {name=V7 value="pulse(1.8 0 0ns 0ns 0ns 30ns 60ns)" savecurrent=false}
-C {gnd.sym} -1290 -100 0 0 {name=l7 lab=GND}
-C {lab_wire.sym} -1290 -220 0 0 {name=p115 sig_type=std_logic lab=d0}
-C {vsource.sym} -1010 -150 0 0 {name=V11 value="pulse(1.8 0 0ns 0ns 0ns 60ns 120ns)" savecurrent=false}
+C {gnd.sym} -500 -100 0 0 {name=l10 lab=GND}
+C {lab_wire.sym} -500 -220 0 0 {name=p118 sig_type=std_logic lab=d3}
+C {vsource.sym} -630 -320 0 0 {name=V6 value="pulse(0 1.8 0ns 0ns 0ns 120ns 240ns)" savecurrent=false}
+C {gnd.sym} -630 -260 0 0 {name=l6 lab=GND}
+C {lab_wire.sym} -630 -380 0 0 {name=p114 sig_type=std_logic lab=we}
+C {vsource.sym} -1270 -160 0 0 {name=V7 value="pulse(1.8 0 0ns 0ns 0ns 30ns 60ns)" savecurrent=false}
+C {gnd.sym} -1270 -100 0 0 {name=l7 lab=GND}
+C {lab_wire.sym} -1270 -220 0 0 {name=p115 sig_type=std_logic lab=d0}
+C {vsource.sym} -1010 -160 0 0 {name=V11 value="pulse(1.8 0 0ns 0ns 0ns 60ns 120ns)" savecurrent=false}
 C {vsource.sym} -750 -160 0 0 {name=V8 value="pulse(0 1.8 0ns 0ns 0ns 30ns 60ns)" savecurrent=false}
-C {vsource.sym} -470 -160 0 0 {name=V9 value="pulse(0 1.8 0ns 0ns 0ns 60ns 120ns)" savecurrent=false}
+C {vsource.sym} -500 -160 0 0 {name=V9 value="pulse(0 1.8 0ns 0ns 0ns 60ns 120ns)" savecurrent=false}
 C {code_shown.sym} -1110 -1090 0 0 {name=s1 only_toplevel=false value=".lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt 
 .tran 0.1n 240n
 .save all"
 }
-C {vsource.sym} -1190 -330 0 0 {name=V10 value="pulse(1.8 0 0ns 0ns 0ns 120ns 240ns)" savecurrent=false}
+C {vsource.sym} -1140 -330 0 0 {name=V10 value="pulse(1.8 0 0ns 0ns 0ns 120ns 240ns)" savecurrent=false}
 C {lab_wire.sym} 1100 -770 0 0 {name=p6 sig_type=std_logic lab=vdd}
 C {lab_wire.sym} 1160 -770 0 0 {name=p7 sig_type=std_logic lab=GND}
 C {lab_wire.sym} 770 -770 0 0 {name=p12 sig_type=std_logic lab=vdd}
